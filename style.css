@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav h1 {
+  margin: auto;
+  color: #fff;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.note {
+  border-radius: 24rem;
+  width: 25rem;
+  height: 25rem;
+  margin: 4rem;
+  margin-bottom: 6rem;
+  background-color: aliceblue;
+}
+
+.toolbar {
+  width: 100%;
+  padding: 1rem;
+  background-color: grey;
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+}
+
+.toolbar i {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.note textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  resize: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.note textarea:focus {
+  border: 0;
+  outline: 0;
+}
+
+#add-note {
+  position: fixed;
+  justify-content: center;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  bottom: 4rem;
+  right: 4rem;
+  border-color: #0000;
+  color: #0000;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 40px;
+  outline: 0;
+}
+#add-note i {
+  color: grey;
+}
